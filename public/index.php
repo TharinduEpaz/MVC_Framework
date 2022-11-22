@@ -24,7 +24,6 @@ $router->add('login',['controller'=> 'login','action'=>'index']);
 //$router->add('posts/new',['controller'=> 'Posts','action'=>'new']);
 $router->add('{controller}/{action}');
 $router->add('admin/{action}/{controller}');
-
 $router->add('{controller}/{id:\d+}/{action}');
 
 // $_SERVER is a PHP super global variable which holds information about headers, paths, and script locations.
